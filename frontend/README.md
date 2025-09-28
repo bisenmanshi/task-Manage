@@ -1,31 +1,41 @@
-# React & Tailwind CSS Starter Pack
+📌 Task Management System (MERN)
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A simple Task Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+This project helps users create, update, delete, and manage tasks with authentication.
 
-## Usage
+🚀 Features
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+🔑 User Register & Login (JWT Authentication)
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+📝 Add, Edit, and Delete Tasks
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+✅ Mark tasks as Pending or Completed
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+🎯 Priority management (High, Medium, Low with colors)
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+📋 Paginated task list with filters
 
-## Contributing
+How to Run
+1. Clone this repo
+git clone https://github.com/bisenmanshi/task-Manage.git
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+
+2. Setup Backend
+npm install
+
+Create a .env file in backend/:
+
+PORT=4000
+MONGO_URI=mongo_connection_string
+JWT_SECRET=random_secret_key
+
+
+Start backend:
+
+npm run dev
+
+Setup Frontend
+
+cd ../frontend
+npm install
+npm start
